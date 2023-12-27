@@ -65,7 +65,7 @@ class speaking(marks):
 
 
 
-# calling 
+# creating objects and accessing the properties and methods 
 listening_obj = listening(33) # listening
 
 reading_obj = reading(37) # reading
@@ -80,7 +80,7 @@ for i in (listening_obj, reading_obj, writing_obj, speaking_obj):
   overall_score += i.outcome()
 
 # overall score
-print("\nOverall Score")
+print("\nThe Overall Band Score is")
 average_score = overall_score / 4  # four total module
 print(average_score) 
 
